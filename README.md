@@ -64,16 +64,20 @@ $$
 ## I-FGSM
 
 Iterative version of FGSM with multiple small updates.
+$$
+x_{t+1} = \text{clip}\left(x_t + \alpha \cdot \text{sign}(\nabla_x L(x_t,y))\right)
+$$
 
 ---
-
-### PGD
+## PGD
 
 Projected Gradient Descent attack with iterative updates and projection into the ε-ball.
+$$
+x_{t+1} = \Pi_{\epsilon}(x_t + \alpha \cdot \text{sign}(\nabla_x L(x_t,y)))
+$$
 
 ---
-
-### Ensemble Attack
+## Ensemble Attack
 
 Instead of attacking a single model, gradients from multiple surrogate models are combined to generate adversarial examples.
 
