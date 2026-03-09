@@ -144,3 +144,19 @@ Main components include:
 ---
 
 # Requirements
+## Discussion
+
+From the experimental results we observe:
+
+- Iterative attacks (I-FGSM, PGD) are generally stronger than single-step attacks such as FGSM.
+- Adversarial examples generated from surrogate models can transfer to other architectures.
+- The ensemble attack significantly reduces model accuracy, demonstrating improved attack transferability.
+- ## Repository Structure
+
+```
+.
+├── hw10_adversarial_attack.ipynb
+├── data/
+├── images/
+└── README.md
+```
