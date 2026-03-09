@@ -2,7 +2,7 @@
 
 This project implements several adversarial attack methods on image classifiers trained on the CIFAR-10 dataset using PyTorch.
 
-We evaluate the robustness of a target model against different gradient-based adversarial attacks and an ensemble attack.
+We evaluate the robustness of a target model(RestNet110) against different gradient-based adversarial attacks(FGSM, I-FGSM, pgd) and an ensemble attack.
 
 ---
 
@@ -33,11 +33,11 @@ Classes include:
 
 Pretrained models from **pytorchcv** are used.
 
-### Target model
+## Target model
 
 - **ResNet110**
 
-### Surrogate models (for transfer attack)
+## Surrogate models (for transfer attack)
 
 - ResNet56
 - DenseNet40_k12
@@ -51,17 +51,17 @@ The surrogate models are used to generate transferable adversarial examples.
 
 We implement the following adversarial attack algorithms.
 
-### FGSM
+## FGSM
 
 Fast Gradient Sign Method:
 
-\[
+$$
 x_{adv} = x + \epsilon \cdot sign(\nabla_x L(x,y))
-\]
+$$
 
 ---
 
-### I-FGSM
+## I-FGSM
 
 Iterative version of FGSM with multiple small updates.
 
