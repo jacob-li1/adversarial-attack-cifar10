@@ -144,8 +144,137 @@ Main components include:
 ---
 
 # Requirements
+Python >=3.10
+
+Install dependencies:
+
+```bash
+pip install -r reuirements.txt
+```
 从vscode里导出
 # Repository Structure
+.
+|D:.
+├─data
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─ensemble_resnet56_densenet40_wrn28
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─fgsm_densenet40
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─fgsm_resnet56
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─fgsm_wrn28
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─ifgsm_densenet40
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─ifgsm_resnet56
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─ifgsm_wrn28
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─pgd_densenet40
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+├─pgd_resnet56
+│  ├─airplane
+│  ├─automobile
+│  ├─bird
+│  ├─cat
+│  ├─deer
+│  ├─dog
+│  ├─frog
+│  ├─horse
+│  ├─ship
+│  └─truck
+└─pgd_wrn28
+    ├─airplane
+    ├─automobile
+    ├─bird
+    ├─cat
+    ├─deer
+    ├─dog
+    ├─frog
+    ├─horse
+    ├─ship
+    └─truck
 怎么样的结构最好，一般是科研用的，
 ## Discussion
 
