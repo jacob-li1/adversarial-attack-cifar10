@@ -1,5 +1,4 @@
 # Adversarial Attacks on CIFAR-10
-这些不同块的顺序怎么调整最好，最符合科研
 
 This project implements several adversarial attack methods on image classifiers trained on the CIFAR-10 dataset using PyTorch.
 
@@ -144,10 +143,25 @@ Main components include:
 ---
 
 # Requirements
-从vscode里导出
+- Python >= 3.10
+
+Install dependencies:
+
+```bash
+pip install -r reuirements.txt
+```
+
 # Repository Structure
-怎么样的结构最好，一般是科研用的，
-## Discussion
+```
+.
+├── hw10_adversarial_attack.ipynb
+├── requirements.txt
+├── README.md
+├── images/
+│   └── example_attack.png
+└── .gitignore
+```
+# Discussion
 
 From the experimental results we observe:
 
